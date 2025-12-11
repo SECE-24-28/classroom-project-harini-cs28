@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Quiz</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="flex justify-center items-center p-10 bg-slate-800">
+    <div class="bg-slate-600 w-[380px] p-8 rounded-2xl text-white">              
+        <h2 class="text-xl font-semibold">Simple JS Quiz</h2>
+        <p class="text-sm text-gray-300 mb-6" id="qCount">Question 1 of 3</p>
+        <p id="question" class="font-medium mb-4"></p>
+        <div id="options" class="flex flex-col gap-3"></div>
+        <div class="mt-6 flex justify-end">
+            <button id="next" class="bg-teal-500 hover:bg-teal-400 px-6 py-2 rounded-xl text-white">
+                Next
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
